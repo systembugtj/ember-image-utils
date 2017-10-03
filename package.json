@@ -1,17 +1,21 @@
 {
   "name": "ember-image-utils",
-  "version": "0.0.0",
+  "version": "0.1.0",
   "description": "The default blueprint for ember-cli addons.",
   "keywords": [
-    "ember-addon"
+    "ember-addon",
+    "image",
+    "fetch",
+    "aspect",
+    "ratio"
   ],
   "license": "MIT",
-  "author": "",
+  "author": "Albert Li albert_lee@hotmail.com",
   "directories": {
     "doc": "doc",
     "test": "tests"
   },
-  "repository": "",
+  "repository": "https://github.com/systembugtj/ember-image-utils.git",
   "scripts": {
     "build": "ember build",
     "start": "ember server",

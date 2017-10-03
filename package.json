@@ -28,12 +28,8 @@
     "start": "ember server",
     "test": "ember try:each"
   },
-  "scripts": {
-    "build": "ember build",
-    "start": "ember server",
-    "test": "ember try:each"
-  },
   "dependencies": {
+    "ember-exif-shim": "^0.2.1",
     "ember-cli-babel": "^6.3.0"
   },
   "devDependencies": {

@@ -1,7 +1,7 @@
 {
   "name": "ember-image-utils",
   "version": "0.1.0",
-  "description": "The default blueprint for ember-cli addons.",
+  "description": "Helpful image utility.",
   "keywords": [
     "ember-addon",
     "image",
@@ -10,12 +10,24 @@
     "ratio"
   ],
   "license": "MIT",
-  "author": "Albert Li albert_lee@hotmail.com",
+  "author": {
+    "name": "Albert Li",
+    "email": "albert_lee@hotmail.com",
+    "url": "https://github.com/systembugtj/ember-image-utils"
+  },
   "directories": {
     "doc": "doc",
     "test": "tests"
   },
-  "repository": "https://github.com/systembugtj/ember-image-utils.git",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/systembugtj/ember-image-utils"
+  },
+  "scripts": {
+    "build": "ember build",
+    "start": "ember server",
+    "test": "ember try:each"
+  },
   "scripts": {
     "build": "ember build",
     "start": "ember server",

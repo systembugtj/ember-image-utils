@@ -11,6 +11,6 @@ export default function aspectRatio(image, designer_width, designer_height) {
   }
   return {
     width: designer_width,
-    height: designer_width
+    height: designer_height
   }
 }

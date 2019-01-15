@@ -29,8 +29,9 @@
     "test": "ember try:each"
   },
   "dependencies": {
-    "ember-exif-shim": "^0.2.1",
-    "ember-cli-babel": "^6.3.0"
+    "ember-cli-babel": "^6.3.0",
+    "ember-cli-update": "^0.27.18",
+    "ember-exif-shim": "^0.2.1"
   },
   "devDependencies": {
     "broccoli-asset-rev": "^2.4.5",

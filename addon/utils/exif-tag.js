@@ -1,9 +1,9 @@
-import Ember from "ember";
+import { Promise } from "rsvp";
 import EXIF from "EXIF";
 import fetchImage from "./fetch-image";
 
 export function getExifTags(img) {
-  return new Ember.RSVP.Promise(function(resolve) {
+  return new Promise(function(resolve) {
     EXIF.getData(img, function() {
       resolve(EXIF.getAllTags(this));
     });

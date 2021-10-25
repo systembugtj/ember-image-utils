@@ -1,9 +1,17 @@
-{{page-title "Dummy"}}
+{{page-title "Image Utils"}}
 
-<h2 id="title">Welcome to Ember</h2>
+<h2 id="title">Image Utils</h2>
+
+<img alt="" src={{this.model.src}} >
+
+<JsonViewer
+  @json={{this.model.tags}}
+  @options={{hash
+    expandedIcon=">"
+    collapsedIcon="<"
+    collapseDepth=5
+  }}
+/>
+
 
 {{outlet}}
-
-<img alt="" src={{model.src}} >
-
-{{model.tags}}
